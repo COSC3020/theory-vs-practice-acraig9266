@@ -28,8 +28,18 @@ I certify that I have listed all sources used to complete this exercise, includi
 - You measure the time with 10,000 elements and it takes 100 seconds! List 3
   reasons why this could be the case, given that reasoning with the asymptotic
   complexity suggests a different time.
-- The array was unsorted with the element in the worst possible index to find
-- There was if(arr.length == 10000) { setTimeout call made with a delay set to about 93.33333 seconds}
+- The array size of 1000 was less than the lower bound on the theoretical time complexity so it shouldn't be applied.
+- The large array was absolute worst case while the smaller array was nearer to best or average case.
+- The larger array contained strings while the small array contained integers which are compared more quickly
+
+- The computer had many other intensive operations during the run with 10,000 elements so had limited access to cpu resources
+- The array with 10,000 elements was searched through with Apollo 11 mission computers while the 1000 elements was done on a modern computer.
+- The search algorithm was implemented poorly resulting in a larger theoretical time complexity as well
+- Wrapped in an if (arr.length = 10,000){} there was a setTimeout call made with a delay set to about 93.33333 seconds in the search function
 - There were two setTimeout calls made setting a delay of about 46.165 seconds each
+- The timer was manually operated and the person holding it got up to grab a cup of coffee while the 10,000 element run was going
+- Math as we've known it for hundreds of years is just wrong
+- A cosmic ray flipped the 64 and 32 bits in the float storing the time
+- 
 
 Add your answers to this markdown file.
