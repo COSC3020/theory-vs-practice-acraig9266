@@ -30,5 +30,6 @@ I certify that I have listed all sources used to complete this exercise, includi
   complexity suggests a different time.
 - The array was unsorted with the element in the worst possible index to find
 - There was a setTimeout call made with a delay set to about 93.33333 seconds.
+- There were two setTimeout calls made setting a delay of about 46.165 seconds each
 
 Add your answers to this markdown file.
