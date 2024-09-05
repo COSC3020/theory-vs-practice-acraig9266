@@ -5,7 +5,7 @@ I certify that I have listed all sources used to complete this exercise, includi
   actual performance in practice.
 - Asymptotic analysis finds a bound that applies for all values >= n so it doesn't tell us anything about complexity for input sizes less than n (unless using little o or little omega).
 - Certain operations may be constant time and ignored in asymptotic analysis when the operations take a long time relative to many other operations in practice.
-- It doesn't account for outside conditions such as hardware optimization or that we may know the type of data we will be using an algorithm on.
+- The bounds can be very large in asymptotic analysis so two algorithms could be ∈ $theta$(n) but one could be 2n + 1 complexity while the other is 28n + 50 but in the notation they appear to be the same performance.
 
 
 - Suppose finding a particular element in a binary search tree with 1,000
