@@ -13,6 +13,7 @@
   element in a search tree with 10,000 elements takes? Explain your reasoning.
 
   $log{n}$ to find in a binary tree
+  
   $T(1,000)$ = $log{_2}{1000}$ = 3/$log{2}$
   $T(10,000)$ = $log{_2}{10000}$ = 4/$log{2}$
 
