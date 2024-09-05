@@ -5,7 +5,7 @@ I certify that I have listed all sources used to complete this exercise, includi
   actual performance in practice.
 - Asymptotic analysis finds a bound that applies for all values >= n so it may be faster or slower than stated when at input sizes of < n.
 - Certain operations may be constant time and ignored in asymptotic analysis when the operations take a long time relative to many other operations in practice.
-- 
+- Best case or worst case scenarios may be very commmon so looking at average case may be drastically different from what happens most often.
   
 
 - Suppose finding a particular element in a binary search tree with 1,000
@@ -28,5 +28,7 @@ I certify that I have listed all sources used to complete this exercise, includi
 - You measure the time with 10,000 elements and it takes 100 seconds! List 3
   reasons why this could be the case, given that reasoning with the asymptotic
   complexity suggests a different time.
+- 
+- The data set was different and was worst case in the test with 10000 elements
 
 Add your answers to this markdown file.
