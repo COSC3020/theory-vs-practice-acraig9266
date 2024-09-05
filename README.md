@@ -19,8 +19,9 @@ I certify that I have listed all sources used to complete this exercise, includi
   
   $T(10,000)$ = $log{_2}{10000}$ = 4 / $log{2}$
 
-  $T(10000) / T(1000)$ = (4 / $log{2}$)/ (3 / $log{2}$) = 4/3
-
+  $T(10000) / T(1000)$ = (4 / $log{2}$) / (3 / $log{2}$) = 4/3
+  4/3 * 5 seconds = 6.66666 seconds
+  I'd expect it to run in about 6.6666 seconds with 10,000 elements because it should be the original time by the ratio of T(10000) and T(1000).
   
 
 - You measure the time with 10,000 elements and it takes 100 seconds! List 3
