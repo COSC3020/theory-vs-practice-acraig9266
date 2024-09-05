@@ -28,7 +28,7 @@ I certify that I have listed all sources used to complete this exercise, includi
 - You measure the time with 10,000 elements and it takes 100 seconds! List 3
   reasons why this could be the case, given that reasoning with the asymptotic
   complexity suggests a different time.
-- 
-- The data set was different and was worst case in the test with 10000 elements
+- The array was unsorted with the element in the worst possible index to find
+- There was a setTimeout call made with a delay set to about 93.33333 seconds.
 
 Add your answers to this markdown file.
