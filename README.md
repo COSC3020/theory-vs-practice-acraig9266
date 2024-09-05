@@ -3,10 +3,10 @@ I certify that I have listed all sources used to complete this exercise, includi
 
 - List 3 reasons why asymptotic analysis may be misleading with respect to
   actual performance in practice.
-- Asymptotic analysis finds a bound that applies for all values >= n so it may be faster or slower than stated when at input sizes of < n.
+- Asymptotic analysis finds a bound that applies for all values >= n so it doesn't tell us anything about complexity for input sizes less than n (unless using little o or little omega).
 - Certain operations may be constant time and ignored in asymptotic analysis when the operations take a long time relative to many other operations in practice.
-- Best case or worst case scenarios may be very commmon so looking at average case may be drastically different from what happens most often.
-  
+- It doesn't account for outside conditions such as hardware optimization or that we may know the type of data we will be using an algorithm on.
+
 
 - Suppose finding a particular element in a binary search tree with 1,000
   elements takes 5 seconds. Given what you know about the asymptotic complexity
@@ -29,17 +29,7 @@ I certify that I have listed all sources used to complete this exercise, includi
   reasons why this could be the case, given that reasoning with the asymptotic
   complexity suggests a different time.
 - The array size of 1000 was less than the lower bound on the theoretical time complexity so it shouldn't be applied.
-- The large array was absolute worst case while the smaller array was nearer to best or average case.
 - The larger array contained strings while the small array contained integers which are compared more quickly
-
-- The computer had many other intensive operations during the run with 10,000 elements so had limited access to cpu resources
-- The array with 10,000 elements was searched through with Apollo 11 mission computers while the 1000 elements was done on a modern computer.
-- The search algorithm was implemented poorly resulting in a larger theoretical time complexity as well
-- Wrapped in an if (arr.length = 10,000){} there was a setTimeout call made with a delay set to about 93.33333 seconds in the search function
-- There were two setTimeout calls made setting a delay of about 46.165 seconds each
-- The timer was manually operated and the person holding it got up to grab a cup of coffee while the 10,000 element run was going
-- Math as we've known it for hundreds of years is just wrong
-- A cosmic ray flipped the 64 and 32 bits in the float storing the time
-- 
+- The computer had other intensive operations during the run with 10,000 elements so it had limited access to cpu resources resulting in longer execution time
 
 Add your answers to this markdown file.
