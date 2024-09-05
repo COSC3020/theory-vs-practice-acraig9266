@@ -19,7 +19,7 @@ I certify that I have listed all sources used to complete this exercise, includi
   
   $T(10,000)$ = $log{_2}{10000}$ = 4 / $log{2}$
 
-  $T(10000) / T(1000)$ = (frac{4} {$log{2}$})/ ($3 / log{2}$)$
+  $T(10000) / T(1000)$ = $\Large\frac({4} {log{2}})/ ($3 / log{2}$)$
 
   
 
