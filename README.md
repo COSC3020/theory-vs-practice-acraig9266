@@ -6,7 +6,7 @@ No sources were used.
   actual performance in practice.
   - Asymptotic analysis finds a bound that applies for all values >= n so it doesn't tell us anything about complexity for input sizes less than n.
   - Certain operations may be constant time and ignored in asymptotic analysis when the operations take a long time relative to many other operations in practice.
-  - The bounds can be very large in asymptotic analysis so two algorithms could be ∈ $theta$(n) but one could be 2n + 1 complexity while the other is 28n + 50 but in the notation they appear to be the same performance.
+  - 
 
 
 - Suppose finding a particular element in a binary search tree with 1,000
@@ -29,6 +29,6 @@ No sources were used.
 - You measure the time with 10,000 elements and it takes 100 seconds! List 3
   reasons why this could be the case, given that reasoning with the asymptotic
   complexity suggests a different time.
-  - The tree size of 1000 was less than the lower bound on the theoretical time complexity so it shouldn't be applied.
+  - The search is poorly implemented and has a higher complexity than log(n) like it should be.
   - Data used could've been generated differently where the small run had mostly or all integers which compare more quickly while the larger run had more or all strings which are compared much more slowly.
   - The computer had other intensive operations during the run with 10,000 elements so it had limited access to cpu resources resulting in longer execution time.
