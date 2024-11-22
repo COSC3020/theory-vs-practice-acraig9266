@@ -6,7 +6,7 @@ No sources were used.
   actual performance in practice.
   - Asymptotic analysis finds a complexity that applies for all values >= n so it doesn't tell us anything about time complexity for input sizes less than n.
   - Asymptotic analysis does not account for the speed of the system running an algorithm.
-  - Algorithms that run in 28n + 1 and 2n + 1 both are written as O(n) or θ(n) and would be expected to have similar work and runtime even though one is roughly 14 times more complex than the other.
+  - Algorithms that run in 28n + 1 and 2n + 1 both are written as O(n) or θ(n) and would be expected to have similar work and runtime at a glance even though one is roughly 14 times more complex than the other.
 
 
 - Suppose finding a particular element in a binary search tree with 1,000
